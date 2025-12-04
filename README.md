@@ -1,6 +1,6 @@
 #  Análisis Exploratorio y Modelado Predictivo de Precios de Viviendas
 
-Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning capaz de predecir el precio de venta de propiedades en India. El flujo de trabajo abarca desde la limpieza y exploración de datos hasta el entrenamiento y validación de los modelos predictivos.
+Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning capaz de predecir el precio de venta de propiedades en India. El flujo de trabajo abarca desde la limpieza y exploración de datos hasta el entrenamiento y validación de los modelos predictivos. Este desarrollo es el proyecto integrador de la materia de Introduccion a la Ciencia de Datos de la Universidad de Palermo.
 
 ## Objetivo
 Predecir el precio de venta (en lacs) basándose en características como ubicación, metros cuadrados, estado de construcción y tipo de vendedor, para asistir en la tasación automática de inmuebles.
@@ -26,12 +26,12 @@ Predecir el precio de venta (en lacs) basándose en características como ubicac
     * Evaluación de métricas: RMSE, MAE y R².
     * Optimización de hiperparámetros.
 
-## 📊 Resultados Destacados
+## Resultados Destacados
 * El modelo de **Bagging Regressor** obtuvo el mejor desempeño con un **R² de 0.82**.
 * Se identificó que aplicar una transformación logarítmica al precio objetivo mejoró significativamente la homocedasticidad de los residuos.
 * Se detectó una menor precisión en propiedades de muy alto valor (lujo), lo cual se documenta como una oportunidad de mejora futura.
 
-## 🚀 Cómo ejecutar este proyecto
+## Cómo ejecutar este proyecto
 
 1.  Clonar el repositorio.
 2.  Instalar las dependencias:
